@@ -1,0 +1,83 @@
+# -------------------------------------------------------------------------
+# Quartus Prime / Altera / Intel FPGA Project Files (Generated/Intermediate)
+# -------------------------------------------------------------------------
+
+# Output and build directories
+output_files/
+incremental_db/
+db/
+work/
+simulation/*/
+work@/
+@_opt/
+@_opt1/
+
+# Quartus/Altera workspace and project history files
+*.qws
+*.qts
+*.mpf
+*.bak
+*.rpt
+*.jdi
+*.jditmp
+*.flow.rpt
+*.sta.rpt
+*.fit.rpt
+*.pin
+*.done
+*.cdf
+*.sft
+*.vo
+*.sld
+
+# ModelSim / QuestaSim / Other Simulation Files
+*.wlf
+transcript
+*.cr.mti
+_lock
+_lib*
+_vmake
+_info
+_tempmsg/
+_temp/
+
+# Lock files and miscellaneous DB files
+*.db_info
+*.sci
+*.hdb
+*.cdb
+*.rdb
+*.logdb
+*.bpm
+*.idb
+*.ammdb
+*.ddb
+*.tdb
+*.kpt
+*.rcfdb
+*.dfp
+*.dpi
+*.hbdb.*
+*.qmsg
+*.txt
+*.json
+*.html
+*.hif
+*.xml
+*.hsd
+
+# Ignore the 'work' directory contents generically, which covers most simulation files
+# /lab*/work/* is already covered by the specific 'work/' exclusion above, but good for clarity.
+# /lab*/db/* is already covered by the specific 'db/' exclusion above.
+
+# -------------------------------------------------------------------------
+# Files to keep (Source, Project Settings, and Scripts)
+# -------------------------------------------------------------------------
+!*.v
+!*.bdf
+!*.do
+!*.qpf
+!*.qsf
+
+# Keep any README or other documentation/source files you might add
+!README
